@@ -43,7 +43,7 @@ git reset --mixed a72bf8b
 git stash save
 ```
 
-4、根据备注找到需求1的最后一个commitId，然后执行如下命令
+4、根据备注找到需求1的最后一个commitId回退，然后执行如下命令
 ```bash
 git reset --hard 6de1d9f
 ```
@@ -69,3 +69,5 @@ git commit -am '需求3'
 ```bash
 git push origin qa1 --force
 ```
+
+参考：https://www.jianshu.com/p/923442327271
